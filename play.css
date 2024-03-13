@@ -1,0 +1,44 @@
+@font-face {
+    font-family: logofont;
+    src: url(photo/SuperDream-ax3vE.ttf);
+          }
+          .playbigcon {
+              background-image: url('photo/Purple Yellow Fun Digital Bingo Game Presentation (1).png');
+              background-size: contain;
+              border: 2px solid black;
+  
+          }
+          .card {
+              margin-left: 20px;
+          }
+          .log{
+              padding-top: 115px;
+              font-family: logofont;
+          }
+          .main{
+              margin-top: 95px;
+              padding-bottom: 97px;
+          }
+          .shadowcard{
+              box-shadow: 2px 2px 2px 3px black;
+              animation: anm 1s ease-in-out;
+          }
+          .shadowcard:hover{
+               transform: scale(1.04);
+          }
+          .play-logo{
+              color: gold;
+              font-weight: 900;
+              -webkit-text-stroke: 4px black;
+          }
+          @keyframes anm {
+              0%{
+                  transform: scale(0);
+                  opacity: 0;
+  
+              }
+              100%{
+                  transform: scale(1);
+                  opacity: 1;
+              }
+          }

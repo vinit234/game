@@ -1,0 +1,88 @@
+@font-face {
+    font-family: logofont;
+    src: url(photo/SuperDream-ax3vE.ttf);
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list ul li {
+    margin-top: 20px;
+
+}
+
+.list ul li button {
+    width: 250px;
+    height: 60px;
+
+}
+
+.name {
+    margin-top: 120px;
+}
+
+.main {
+    margin-top: 75px;
+    margin-bottom: 55px;
+}
+
+.bigcon {
+    background-image: url('photo/Blue and Yellow Fun Colorful Trivia Quiz Kids Game Presentation.png');
+    background-size: cover;
+    border: 2px solid black;
+}
+
+.social {
+    font-size: 30px;
+    animation: anm 1s ease-in-out;
+}
+
+.main ul li button {
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 3px rgb(0, 0, 0);
+}
+
+.main-btn {
+    background-color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+    animation: anm 1s ease-in-out;
+}
+
+.main-btn:hover {
+    color: white;
+    transform: scale(1.08);
+}
+
+.main-logo {
+    color: gold;
+    font-weight: 900;
+    -webkit-text-stroke: 4px black;
+    font-family: logofont;
+}
+
+.icon {
+    color: gold;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    animation: anm 1s ease-in-out;
+}
+
+@keyframes anm {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

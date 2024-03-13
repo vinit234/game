@@ -1,0 +1,23 @@
+#highScoresList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+.high-score {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.high-score:hover {
+  transform: scale(1.025);
+}
+#finalScore{
+  color: gold;
+  font-weight: 900;
+  -webkit-text-stroke: 4px black;
+}
+#highScores{
+ margin: 15%;
+}
